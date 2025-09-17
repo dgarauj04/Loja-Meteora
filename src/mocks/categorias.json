@@ -1,5 +1,11 @@
 [
   {
+    "id": 0,
+    "src": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "alt": "Produtos diversos da loja",
+    "descricao": "Todos"
+  },
+  {
     "id": 1,
     "src": "/assets/images/categorias/categoria-camiseta.png",
     "alt": "Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.",
@@ -34,5 +40,11 @@
     "src": "/assets/images/categorias/categoria-oculos.png",
     "alt": "Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão.",
     "descricao": "Óculos"
+  },
+  {
+    "id": 7,
+    "src": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400",
+    "alt": "Acessórios diversos como brincos, cordões e pulseiras",
+    "descricao": "Acessórios"
   }
 ]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "nome": "Meteora - Vila Madalena",
+    "endereco": "Rua Harmonia, 277",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "05435-000",
+    "telefone": "(11) 2345-6789",
+    "email": "vilamadalena@meteora.com.br",
+    "horario": "Segunda a Sábado: 10h às 20h | Domingo: 12h às 18h"
+  },
+  {
+    "id": 2,
+    "nome": "Meteora - Ipanema",
+    "endereco": "Rua Visconde de Pirajá, 444",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "cep": "22410-002",
+    "telefone": "(21) 9876-5432",
+    "email": "ipanema@meteora.com.br",
+    "horario": "Segunda a Sábado: 10h às 21h | Domingo: 13h às 19h"
+  },
+  {
+    "id": 3,
+    "nome": "Meteora - Savassi",
+    "endereco": "Rua Fernandes Tourinho, 500",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "cep": "30112-000",
+    "telefone": "(31) 3456-7890",
+    "email": "savassi@meteora.com.br",
+    "horario": "Segunda a Sexta: 09h às 19h | Sábado: 09h às 14h"
+  }
+]

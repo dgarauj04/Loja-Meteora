@@ -7,7 +7,7 @@ const ItemCarrossel = ({ src, alt, itemCarrossel }) => {
       className={`image-height carousel-item ${itemCarrossel ? "" : "active"}`}
     >
       <img
-        className={`w-100 img-fluid cover-image ${
+        className={`w-100 h-100 img-fluid cover-image ${
           itemCarrossel ? "cover-center" : "cover-left"
         }`}
         src={src}

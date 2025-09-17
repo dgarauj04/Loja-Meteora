@@ -23,8 +23,18 @@ const updateQuantidadeAction = (produtoId, quantidade) => ({
 });
 
 export const useCarrinhoContext = () => {
-  const { carrinho, dispatch, quantidade, valorTotal } =
-    useContext(CarrinhoContext);
+  const { 
+    carrinho, 
+    dispatch, 
+    quantidade, 
+    valorTotal, 
+    valorOriginal,
+    desconto,
+    voucherAplicado,
+    aplicarVoucher,
+    removerVoucher,
+    vouchersValidos
+  } = useContext(CarrinhoContext);
 
   function adicionarProduto(novoProduto) {
     dispatch(addProdutoAction(novoProduto));
@@ -44,12 +54,27 @@ export const useCarrinhoContext = () => {
     dispatch(removeProdutoAction(id));
   }
 
+  function atualizarQuantidade(id, novaQuantidade) {
+    if (novaQuantidade <= 0) {
+      dispatch(removeProdutoAction(id));
+    } else {
+      dispatch(updateQuantidadeAction(id, novaQuantidade));
+    }
+  }
+
   return {
     carrinho,
     adicionarProduto,
     removerProduto,
     removerProdutoCarrinho,
+    atualizarQuantidade,
     valorTotal,
+    valorOriginal,
     quantidade,
+    desconto,
+    voucherAplicado,
+    aplicarVoucher,
+    removerVoucher,
+    vouchersValidos
   };
 };

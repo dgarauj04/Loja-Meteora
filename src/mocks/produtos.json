@@ -2,49 +2,379 @@
   {
     "id": 1,
     "src": "/assets/images/produtos/camiseta.png",
-    "alt": "Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.",
-    "titulo": "Camiseta conforto",
+    "alt": "Modelo masculino vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.",
+    "titulo": "Camiseta Conforto",
     "descricao": "Multicores e tamanhos. Tecido de algodão 100% fresquinho.",
-    "preco": 70.0
+    "preco": 70.0,
+    "precoOriginal": 85.0,
+    "categoria": "Camisetas",
+    "promocao": true,
+    "estoque": 15,
+    "avaliacoes": [
+      { "usuario": "Ana Silva", "estrelas": 5, "comentario": "Tecido muito macio e confortável!" },
+      { "usuario": "Carlos Lima", "estrelas": 4, "comentario": "Boa qualidade, recomendo." }
+    ]
   },
   {
     "id": 2,
     "src": "/assets/images/produtos/calca.png",
-    "alt": "Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.",
+    "alt": "Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca.",
     "titulo": "Calça Alfaiataria",
     "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda!",
-    "preco": 180.0
+    "preco": 180.0,
+    "precoOriginal": 180.0,
+    "categoria": "Calças",
+    "promocao": false,
+    "estoque": 8,
+    "avaliacoes": [
+      { "usuario": "Maria Santos", "estrelas": 5, "comentario": "Elegante e confortável!" },
+      { "usuario": "Julia Costa", "estrelas": 5, "comentario": "Qualidade excepcional." }
+    ]
   },
   {
     "id": 3,
     "src": "/assets/images/produtos/tenis.png",
-    "alt": "Foco nos pés de modelo usando par de tênis e meia na cor branca, e calça na cor preta, pisando em uma poça de água.",
+    "alt": "Foco nos pés de modelo usando par de tênis e meia na cor branca.",
     "titulo": "Tênis Chunky",
     "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
-    "preco": 250.0
+    "preco": 250.0,
+    "precoOriginal": 250.0,
+    "categoria": "Calçados",
+    "promocao": false,
+    "estoque": 12,
+    "avaliacoes": [
+      { "usuario": "Pedro Oliveira", "estrelas": 4, "comentario": "Muito estiloso e confortável para o dia a dia." }
+    ]
   },
   {
     "id": 4,
     "src": "/assets/images/produtos/jaqueta-jeans.png",
-    "alt": "Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.",
+    "alt": "Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul.",
     "titulo": "Jaqueta Jeans",
     "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
-    "preco": 150.0
+    "preco": 150.0,
+    "precoOriginal": 200.0,
+    "categoria": "Casacos",
+    "promocao": true,
+    "estoque": 6,
+    "avaliacoes": [
+      { "usuario": "Lucas Ferreira", "estrelas": 5, "comentario": "Jaqueta incrível, muito bem feita!" }
+    ]
   },
   {
     "id": 5,
     "src": "/assets/images/produtos/oculos.png",
-    "alt": "Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.",
+    "alt": "Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas.",
     "titulo": "Óculos Redondo",
     "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
-    "preco": 120.0
+    "preco": 50.0,
+    "precoOriginal": 85.0,
+    "categoria": "Óculos",
+    "promocao": true,
+    "estoque": 20,
+    "avaliacoes": [
+      { "usuario": "Bruno Silva", "estrelas": 4, "comentario": "Design moderno e qualidade boa." }
+    ]
   },
   {
     "id": 6,
     "src": "/assets/images/produtos/bolsa.png",
-    "alt": "Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.",
-    "titulo": "Bolsa coringa",
+    "alt": "Modelo feminina segurando bolsa na cor bege.",
+    "titulo": "Bolsa Coringa",
     "descricao": "Bolsa camel em couro sintético de alta duração. Perfeita!",
-    "preco": 120.0
+    "preco": 120.0,
+    "precoOriginal": 120.0,
+    "categoria": "Bolsas",
+    "promocao": false,
+    "estoque": 10,
+    "avaliacoes": [
+      { "usuario": "Fernanda Costa", "estrelas": 5, "comentario": "Bolsa linda e muito prática!" },
+      { "usuario": "Camila Rocha", "estrelas": 4, "comentario": "Combina com tudo, super recomendo." }
+    ]
+  },
+  {
+    "id": 7,
+    "src": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+    "alt": "Camiseta básica branca feminina",
+    "titulo": "Camiseta Básica Feminina",
+    "descricao": "Camiseta essencial de algodão. Corte feminino, ideal para o dia a dia.",
+    "preco": 45.0,
+    "precoOriginal": 60.0,
+    "categoria": "Camisetas",
+    "promocao": true,
+    "estoque": 25,
+    "avaliacoes": [
+      { "usuario": "Luana Martins", "estrelas": 5, "comentario": "Tecido de ótima qualidade!" }
+    ]
+  },
+  {
+    "id": 8,
+    "src": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400",
+    "alt": "Camiseta masculina preta",
+    "titulo": "Camiseta Premium Masculina",
+    "descricao": "Camiseta preta premium com acabamento especial. 100% algodão.",
+    "preco": 65.0,
+    "precoOriginal": 65.0,
+    "categoria": "Camisetas",
+    "promocao": false,
+    "estoque": 18,
+    "avaliacoes": [
+      { "usuario": "Roberto Silva", "estrelas": 4, "comentario": "Qualidade muito boa." }
+    ]
+  },
+  {
+    "id": 9,
+    "src": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400",
+    "alt": "Calça jeans skinny feminina",
+    "titulo": "Calça Jeans Skinny",
+    "descricao": "Calça jeans skinny com elastano. Modelagem que valoriza a silhueta.",
+    "preco": 120.0,
+    "precoOriginal": 140.0,
+    "categoria": "Calças",
+    "promocao": true,
+    "estoque": 14,
+    "avaliacoes": [
+      { "usuario": "Amanda Silva", "estrelas": 5, "comentario": "Fica perfeita no corpo!" }
+    ]
+  },
+  {
+    "id": 10,
+    "src": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400",
+    "alt": "Calça cargo masculina",
+    "titulo": "Calça Cargo Masculina",
+    "descricao": "Calça cargo com vários bolsos. Estilo urbano e funcional.",
+    "preco": 160.0,
+    "precoOriginal": 160.0,
+    "categoria": "Calças",
+    "promocao": false,
+    "estoque": 9,
+    "avaliacoes": [
+      { "usuario": "Thiago Santos", "estrelas": 4, "comentario": "Muito prática e estilosa." }
+    ]
+  },
+  {
+    "id": 11,
+    "src": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
+    "alt": "Tênis esportivo branco",
+    "titulo": "Tênis Esportivo",
+    "descricao": "Tênis esportivo branco com detalhes coloridos. Para treinos e casual.",
+    "preco": 280.0,
+    "precoOriginal": 320.0,
+    "categoria": "Calçados",
+    "promocao": true,
+    "estoque": 16,
+    "avaliacoes": [
+      { "usuario": "Rafael Costa", "estrelas": 5, "comentario": "Muito confortável para correr!" }
+    ]
+  },
+  {
+    "id": 12,
+    "src": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400",
+    "alt": "Bota feminina cano curto",
+    "titulo": "Bota Feminina Cano Curto",
+    "descricao": "Bota em couro sintético com salto baixo. Elegante e confortável.",
+    "preco": 180.0,
+    "precoOriginal": 180.0,
+    "categoria": "Calçados",
+    "promocao": false,
+    "estoque": 7,
+    "avaliacoes": [
+      { "usuario": "Patricia Lima", "estrelas": 4, "comentario": "Linda e confortável." }
+    ]
+  },
+  {
+    "id": 13,
+    "src": "https://th.bing.com/th/id/OIP.EFdB7aVoxolJdRA4hBzdBgHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "alt": "Casaco de lã feminino",
+    "titulo": "Casaco de Lã Premium",
+    "descricao": "Casaco de lã com corte elegante. Ideal para o inverno.",
+    "preco": 320.0,
+    "precoOriginal": 400.0,
+    "categoria": "Casacos",
+    "promocao": true,
+    "estoque": 5,
+    "avaliacoes": [
+      { "usuario": "Isabela Santos", "estrelas": 5, "comentario": "Quentinho e muito elegante!" }
+    ]
+  },
+  {
+    "id": 14,
+    "src": "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?w=400",
+    "alt": "Moletom com capuz",
+    "titulo": "Moletom Capuz Unissex",
+    "descricao": "Moletom confortável com capuz. Perfeito para o dia a dia.",
+    "preco": 95.0,
+    "precoOriginal": 115.0,
+    "categoria": "Casacos",
+    "promocao": true,
+    "estoque": 22,
+    "avaliacoes": [
+      { "usuario": "Gabriel Oliveira", "estrelas": 4, "comentario": "Muito quentinho e confortável." }
+    ]
+  },
+  {
+    "id": 15,
+    "src": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400",
+    "alt": "Brincos de argola dourados",
+    "titulo": "Brincos Argola Dourada",
+    "descricao": "Brincos de argola em banho de ouro. Elegantes e versáteis.",
+    "preco": 75.0,
+    "precoOriginal": 90.0,
+    "categoria": "Acessórios",
+    "promocao": true,
+    "estoque": 30,
+    "avaliacoes": [
+      { "usuario": "Carla Mendes", "estrelas": 5, "comentario": "Lindos e de ótima qualidade!" }
+    ]
+  },
+  {
+    "id": 16,
+    "src": "https://www.majorica.pt/wp-content/webpc-passthru.php?src=https://www.majorica.pt/wp-content/uploads/2020/11/00322.01.2-1.jpg&nocache=1",
+    "alt": "Brincos pequenos de pérola",
+    "titulo": "Brincos Pérola Pequenos",
+    "descricao": "Brincos delicados com pérolas sintéticas. Clássicos e elegantes.",
+    "preco": 55.0,
+    "precoOriginal": 55.0,
+    "categoria": "Acessórios",
+    "promocao": false,
+    "estoque": 25,
+    "avaliacoes": [
+      { "usuario": "Elena Costa", "estrelas": 4, "comentario": "Discretos e bonitos." }
+    ]
+  },
+  {
+    "id": 17,
+    "src": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=400",
+    "alt": "Cordão masculino dourado",
+    "titulo": "Cordão Masculino Gold",
+    "descricao": "Corrente masculina em banho de ouro. Estilo e sofisticação.",
+    "preco": 120.0,
+    "precoOriginal": 150.0,
+    "categoria": "Acessórios",
+    "promocao": true,
+    "estoque": 12,
+    "avaliacoes": [
+      { "usuario": "Diego Fernandes", "estrelas": 5, "comentario": "Muito bonito e bem acabado!" }
+    ]
+  },
+  {
+    "id": 18,
+    "src": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lo0abnxuku2va4",
+    "alt": "Pulseira feminina prata",
+    "titulo": "Pulseira Delicada Prata",
+    "descricao": "Pulseira feminina em prata com pingentes. Delicada e moderna.",
+    "preco": 85.0,
+    "precoOriginal": 100.0,
+    "categoria": "Acessórios",
+    "promocao": true,
+    "estoque": 18,
+    "avaliacoes": [
+      { "usuario": "Sophia Lima", "estrelas": 5, "comentario": "Linda e delicada, amei!" }
+    ]
+  },
+  {
+    "id": 19,
+    "src": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "alt": "Pulseira masculina couro",
+    "titulo": "Pulseira Couro Masculina",
+    "descricao": "Pulseira em couro genuíno com detalhes em metal. Estilo casual.",
+    "preco": 65.0,
+    "precoOriginal": 65.0,
+    "categoria": "Acessórios",
+    "promocao": false,
+    "estoque": 15,
+    "avaliacoes": [
+      { "usuario": "Henrique Silva", "estrelas": 4, "comentario": "Boa qualidade do couro." }
+    ]
+  },
+  {
+    "id": 20,
+    "src": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400",
+    "alt": "Bolsa transversal pequena",
+    "titulo": "Bolsa Transversal Mini",
+    "descricao": "Bolsa pequena transversal. Prática para o dia a dia.",
+    "preco": 90.0,
+    "precoOriginal": 110.0,
+    "categoria": "Bolsas",
+    "promocao": true,
+    "estoque": 20,
+    "avaliacoes": [
+      { "usuario": "Beatriz Santos", "estrelas": 4, "comentario": "Perfeita para usar no dia a dia." }
+    ]
+  },
+  {
+    "id": 21,
+    "src": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "alt": "Mochila urbana preta",
+    "titulo": "Mochila Urbana Premium",
+    "descricao": "Mochila em material resistente com compartimentos. Ideal para trabalho.",
+    "preco": 150.0,
+    "precoOriginal": 180.0,
+    "categoria": "Bolsas",
+    "promocao": true,
+    "estoque": 8,
+    "avaliacoes": [
+      { "usuario": "André Costa", "estrelas": 5, "comentario": "Muito funcional e resistente!" }
+    ]
+  },
+  {
+    "id": 22,
+    "src": "https://tse3.mm.bing.net/th/id/OIP.8kovJqlpLxNtyeB0FXalIQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "alt": "Chapéu bucket hat bege",
+    "titulo": "Chapéu Bucket Hat",
+    "descricao": "Chapéu bucket hat unissex. Estilo e proteção para dias de sol.",
+    "preco": 80.0,
+    "precoOriginal": 80.0,
+    "categoria": "Acessórios",
+    "promocao": false,
+    "estoque": 20,
+    "avaliacoes": [
+      { "usuario": "Mariana Lima", "estrelas": 5, "comentario": "Lindo e de ótima qualidade!" }
+    ]
+  },
+  {
+    "id": 23,
+    "src": "https://th.bing.com/th/id/OPHS.GGF64QyyFeNPIQ474C474?w=200&h=260&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "alt": "Vestido floral midi com fundo branco",
+    "titulo": "Vestido Floral Midi",
+    "descricao": "Vestido midi com estampa floral. Leve e perfeito para o verão.",
+    "preco": 190.0,
+    "precoOriginal": 220.0,
+    "categoria": "Vestidos",
+    "promocao": true,
+    "estoque": 10,
+    "avaliacoes": [
+      { "usuario": "Juliana Alves", "estrelas": 5, "comentario": "Vestido maravilhoso, caimento perfeito!" }
+    ]
+  },
+  {
+    "id": 24,
+    "src": "https://imgmarketplace.lojasrenner.com.br/20001/1158/7010701143846/7510702032720/1.jpeg",
+    "alt": "Sandália de couro marrom",
+    "titulo": "Sandália de Couro",
+    "descricao": "Sandália rasteira em couro legítimo. Conforto e estilo para seus pés.",
+    "preco": 130.0,
+    "precoOriginal": 130.0,
+    "categoria": "Calçados",
+    "promocao": false,
+    "estoque": 15,
+    "avaliacoes": [
+      { "usuario": "Laura Pereira", "estrelas": 4, "comentario": "Muito confortável, mas a cor é um pouco diferente da foto." }
+    ]
+  },
+  {
+    "id": 25,
+    "src": "https://imgs.pontofrio.com.br/1544657374/1xg.jpg",
+    "alt": "Camisa social masculina azul claro",
+    "titulo": "Camisa Social Masculina",
+    "descricao": "Camisa social slim fit de algodão. Elegância para qualquer ocasião.",
+    "preco": 140.0,
+    "precoOriginal": 170.0,
+    "categoria": "Camisetas",
+    "promocao": true,
+    "estoque": 11,
+    "avaliacoes": [
+      { "usuario": "Marcos Andrade", "estrelas": 5, "comentario": "Excelente qualidade e caimento." }
+    ]
   }
 ]

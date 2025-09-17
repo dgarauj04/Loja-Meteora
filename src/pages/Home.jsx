@@ -8,6 +8,7 @@ import CarrinhoSuspenso from "@/components/CarrinhoSuspenso";
 import Categorias from "@/components/Categorias";
 import Facilidades from "@/components/Facilidades";
 import Novidades from "@/components/Novidades";
+import Filtros from "@/components/Filtros";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <main>
         <Carrossel />
         <Categorias />
+        <Filtros />
         <Produtos />
         <Facilidades />
         <Novidades />

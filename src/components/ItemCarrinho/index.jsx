@@ -4,10 +4,14 @@ import Quantidade from "@/components/Quantidade";
 import ValorFormatado from "@/components/ValorFormatado";
 import InfoItemCarrinho from "./InfoItemCarrinho";
 import { useCarrinhoContext } from "@/hooks/useCarrinhoContext";
+import { formatadorMoeda } from "@/utils/formatadorMoeda";
 
 const ItemCarrinho = ({ itemCarrinho }) => {
   const { adicionarProduto, removerProduto, removerProdutoCarrinho } =
     useCarrinhoContext();
+    
+  const subtotal = itemCarrinho.preco * itemCarrinho.quantidade;
+  
   return (
     <li key={itemCarrinho.id}>
       <>
@@ -18,16 +22,28 @@ const ItemCarrinho = ({ itemCarrinho }) => {
             alt={itemCarrinho.alt}
           />
           <InfoItemCarrinho itemCarrinho={itemCarrinho} />
-          <ValorFormatado valor={itemCarrinho.preco} />
+          
+          <div className="d-flex flex-column align-items-center">
+            <ValorFormatado valor={itemCarrinho.preco} />
+            <small className="text-muted">Preço unitário</small>
+          </div>
+          
           <Quantidade
             itemCarrinho={itemCarrinho}
             adicionarProduto={adicionarProduto}
             removerProduto={removerProduto}
           />
+          
+          <div className="d-flex flex-column align-items-center">
+            <strong className="text-success">{formatadorMoeda(subtotal)}</strong>
+            <small className="text-muted">Subtotal</small>
+          </div>
+          
           <Botao
             variant="deleteItem"
-            aria-label="Excluir"
+            aria-label="Excluir produto"
             handleClick={() => removerProdutoCarrinho(itemCarrinho.id)}
+            title="Remover produto do carrinho"
           >
             delete_forever
           </Botao>
